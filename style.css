@@ -111,3 +111,34 @@ body{
     padding: 1.5rem 2.1rem;
     text-transform: uppercase;
 }
+.tabs{
+    width: 100%;
+    border-bottom: 1px solid #999 ;
+}
+.tabs-container
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.fa-3x
+{
+    height:60px;
+    width: 50px;
+   
+}
+.tabs .tabs-container>div{
+    padding: 1.5rem 0;
+    color:gray;
+}
+.tabs .tabs-container>div:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.tab-border
+{
+    border-bottom: #e50914 solid 2px;
+}
